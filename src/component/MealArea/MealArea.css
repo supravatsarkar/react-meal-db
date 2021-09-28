@@ -1,0 +1,15 @@
+
+.meal-area{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    
+}
+.meals-contianer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    /* border: 2px solid red; */
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}

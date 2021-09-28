@@ -1,0 +1,39 @@
+.meal{
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 5px;
+    text-align: center;
+    
+    padding: 5px;
+}
+.meal:hover{
+    background-color: beige;
+
+}
+.meal:hover img{
+    
+}   
+.meal img{
+    width: 200px;
+    border-radius: 5px;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+.meal h2{
+    font-weight: 500;
+    color:brown;
+}
+.meal p{
+    color:grey;
+}
+.add-to-cart-btn{
+    background-color:brown;
+    color:white;
+    padding: 10px;
+    border-radius: 5px;
+    border:1px solid black;
+}
+.add-to-cart-btn:hover{
+    background-color:rgba(165, 42, 42, 0.87);
+    cursor: pointer;
+}
